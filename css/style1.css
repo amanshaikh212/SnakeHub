@@ -1,0 +1,63 @@
+.body{
+    background: url("../img/bg.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    
+    font-family: 'Andada Pro', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#board{
+    background-color: #75F336;
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    list-style: none;
+    
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul{
+    list-style: none;
+    position: relative; right: 50px;
+}
+li{
+    padding: 15px;
+    margin: 12px;
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    
+    border: none;
+}
+li:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    font-size: 35px;
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    position: relative; right: 50px;
+}
+
+#help{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+
